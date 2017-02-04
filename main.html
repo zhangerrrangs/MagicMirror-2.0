@@ -3,15 +3,30 @@
 
 <head>
     <link rel="stylesheet" href="/css/base.css" type="text/css">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/time.js"></script>
+    <script type="text/javascript" src="js/blink.js"></script>
+
     <title>Magic Mirror</title>
+
+    <script>
+        window.onload = function() {
+        if (!window.jQuery) {
+            // jQuery is loaded
+            alert(" Jquery, not working! ");
+        }
+    }
+    </script>
+
 </head>
 
-<body bgcolor="Black">
-    <div id="top-left"> Time <span id="Time"></span>
-    </div>
+<body bgcolor="black">
+
+ <div id="top-left">Time <span id="Hour"></span><span class="blink">:</span><span id="Minute"></span>-<span id="cycle"></span></div>
 </body>
 
 </html>
