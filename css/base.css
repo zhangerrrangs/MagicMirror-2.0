@@ -9,10 +9,10 @@
 
 #top-left {
     position: relative;
-    top: 10px;
-    left: 20px;
+    top: 5%;
+    left: 1%;
     text-align: left;
     color: azure;
-    font-size: 5em;
+    font-size: 700%;
     font-family: 'Digitalt';
 }
