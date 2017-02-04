@@ -3,13 +3,17 @@
 
 <head>
     <link rel="stylesheet" href="/css/base.css" type="text/css">
+    <link rel="stylesheet" href="/css/weather.css" type="text/css">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+
+    <script type="text/javascript" src="/js/weather.js"></script>
     <script type="text/javascript" src="/js/time.js"></script>
-    <script type="text/javascript" src="js/blink.js"></script>
+    <script type="text/javascript" src="/js/blink.js"></script>
 
     <title>Magic Mirror</title>
 
@@ -18,15 +22,16 @@
         if (!window.jQuery) {
             // jQuery is loaded
             alert(" Jquery, not working! ");
+            $("html").title;
         }
     }
     </script>
 
 </head>
 
-<body bgcolor="black">
+<body bgcolor="#1192d3">
 
- <div id="top-left">Time <span id="Hour"></span><span class="blink">:</span><span id="Minute"></span>-<span id="cycle"></span></div>
+ <div id="top-left">Time <span id="Hour"></span><span class="blink">:</span><span id="Minute"></span>-<span id="cycle"></span></div><span id="weather"></span>
 </body>
 
 </html>
