@@ -30,7 +30,7 @@
 i {
     color: #fff;
     font-family: weather;
-    font-size: 150px;
+    font-size: 175%;
     font-weight: normal;
     font-style: normal;
 }
@@ -232,6 +232,7 @@ i {
     color: #fff;
     font-size: 100px;
     font-weight: 5000;
+    font-family: time;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
@@ -242,9 +243,12 @@ i {
 
 #weather li {
     list-style-type: none;
-    background: azure;
+    color: azure;
+    font-family: Digitalt;
     padding: 20px;
     border-radius: 5px;
+    font-size: 300%;
+    align-content: center;
 }
 
 #weather .currently {

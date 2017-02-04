@@ -6,6 +6,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'time';
+    src: url('/font/timeburnerbold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 #top-left {
     position: relative;
